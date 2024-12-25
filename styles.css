@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    width: 100%;
+}
+
+.box {
+    flex-basis: calc(100% / 16);
+    aspect-ratio: 1;
+    flex-shrink: 0;
+    border: 1px black solid;
+    /* min-width: 50px; */
+}
+
+button {
+    font-size: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-right: auto; */
+}
